@@ -43,7 +43,7 @@ ul, ol {
     padding: 25px 25px;
     line-height: 25px;
 }
-section h3{
+section h3 {
     color: var(--color-1);
 }
 .nutrition {
@@ -57,26 +57,26 @@ section h3{
     font-weight: 600;
 }
 @media (min-width: 768px) {
-    body {
-        background-color: var(--color-6);
+body {
+ background-color: var(--color-6);
 }
-main {
-    background-color: var(--color-5);
-    padding: 20px;
+article {
+ background-color: var(--color-5);
+ padding: 20px;
+ border-radius: 10px;
+ width: 700px;
+ height: 100%;
+ margin: 0 auto;
+ }
+  img {
     border-radius: 10px;
-    width: 700px;
-    height: 100%;
-    margin: 0 auto;
-}
-img {
-    border-radius: 10px;
-}
+ }
 }
 @media (min-width: 320px) {
-main {
-    background-color: var(--color-5);
+ main {
+ background-color: var(--color-5);
 }
-.image {
+ .image {
     background-image: url(../images/image-omelette.png);
     background-position: center;
     background-size: contain;
@@ -85,5 +85,5 @@ main {
 }
 .mob {
     padding: 25px;
-}
+ }
 }
